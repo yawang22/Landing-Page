@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+/* Header */
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 13px 200px 120px;
+    justify-content: space-between;
+    height: 430px;
+    width: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 30px;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+}
+
+.intro img {
+    height: auto;
+    width: 450px;
+    margin-left: 50px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+a,
+p,
+button {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 5px 35px;
+    border-radius: 7px;
+}
+
+.intro button {
+    border: none;
+}
+/* Random Information */
+.info 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 200px 90px;
+}
+
+.images {
+    display: flex;
+    gap: 15px 35px;
+    flex-wrap: wrap;
+}
+
+.image { 
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    height: auto;
+    width: 200px;
+}
+
+.image img {
+    width: 200px;
+    height: auto;
+    border-radius: 7px;
+}
+
+.image div {
+    margin-top: 10px;
+}
+
+/* Quote */
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+p2 {
+    text-align: right;
+}
+
+/* Ad */
+
+.ad {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 100px 200px;
+    background-color: #3882F6; 
+    padding: 40px 100px;
+    margin: 100px 200px;
+    border-radius: 7px;      
+}
+
+.action p {
+    margin: 0;
+}
+
+.ad button {
+    border-color: #E5E7EB;
+    border: 10px;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;  
+    padding: 25px;  
+}
+
+
+
+
